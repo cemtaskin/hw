@@ -22,8 +22,10 @@ public class Program {
         System.out.println(2*5);
         System.out.println(add(4,10));
 
-        String name = "Ali Duru"; //Declare a variable with the type of string and assing Jonh value for storing
-        System.out.println(name); //print outs the value of the variable
+        String name = "Ali"; //Declare a variable with the type of string and assing Jonh value for storing
+        String surName = "Duru";
+
+        System.out.println("Hello "  + name + " " + surName); //print outs the value of the variable
         System.out.println(name.length()); //print outs the lenght of the stored value in variable
     
         int firstNumber = 20; //Declara a variablw with the type of interger and assing 20 value for storing
@@ -42,7 +44,29 @@ public class Program {
 
         System.out.println(myNumber);
 
+        
+        // int x=5;
+        // int y=6;
+        // int z=20;
 
+        int x=5,y=6,z=20;
+        x=y=z=10;
+
+        System.out.println(x+y+z);
+        
+        String firstStringNumber= "1000";
+        String secondStringNumber="2000";
+
+        int result= Integer.parseInt(firstStringNumber) + Integer.parseInt(secondStringNumber);
+
+        System.out.println(result);
+        System.out.println(firstStringNumber + secondStringNumber);
+        String txt ="We are the so-called\"Vikings\"fromt north.";
+
+        System.out.println(txt);
+
+        
+    
     }
 
     /**
