@@ -21,6 +21,28 @@ public class Program {
         System.out.println(3+3);
         System.out.println(2*5);
         System.out.println(add(4,10));
+
+        String name = "Ali Duru"; //Declare a variable with the type of string and assing Jonh value for storing
+        System.out.println(name); //print outs the value of the variable
+        System.out.println(name.length()); //print outs the lenght of the stored value in variable
+    
+        int firstNumber = 20; //Declara a variablw with the type of interger and assing 20 value for storing
+        System.out.println(firstNumber);
+
+
+        firstNumber = 40; //we assing a new value to store in fistNumber variable
+
+        int secondNumber = 35;
+        System.out.println(secondNumber);
+
+        System.out.println("Addition of two numbers : " + add(firstNumber,secondNumber));
+        System.out.println("Addition of two numbers : " + (firstNumber + secondNumber));
+
+        final int myNumber=15; //final means that we can assing value to a final variable only once 
+
+        System.out.println(myNumber);
+
+
     }
 
     /**
